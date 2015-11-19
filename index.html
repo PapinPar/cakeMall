@@ -1,22 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<body>
+
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
-<nav>
-    <nav-bar>
-        <ul>
-            <li>Products</li>
-            <li>About us</li>
-            <li>Location</li>
-        </ul>
-    </nav-bar>
-</nav>
-<header>Header</header>
-<main>
-Main
-</main>
 
-<footer>footer</footer>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#menu-list">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="menu-list">
+            <ul class="nav navbar-nav">
+                <li><a onclick="$('#header').animatescroll({padding:71});">Strart</a></li>
+                <li><a onclick="$('#products-info').animatescroll({padding:71});">Profuct info</a></li>
+                <li><a onclick="$('#about-us').animatescroll({padding:71});">About us</a></li>
+                <li><a onclick="$('#contacts').animatescroll({padding:71});">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header id="header">
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, similique?</h1>
+</header>
+<main id ="products-info">
+    <div class="row">
+        <div class="container-info col-md-4">
+            <ul>
+                <li>
+                    <img src="">
+                    <button class="info-button" >click</button>
+                </li>
+                <li>
+                    <article>
+                        <h2>Name</h2>
+                        <h3>Price:200$</h3>
+                        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid
+                        animi delectus dolore,eum magnam modi, nam nemo non nostrum, quasi qui voluptatum.
+                        Aliquid assumenda aut consectetur consequatur, delectus distinctio dolorem ducimus,
+                        facere fugit id inventore natus nobis, sed? Odio.</em>
+                    </article>
+                </li>
+            </ul>
+        </div>
+        <div class="container-info col-md-4">
+            <ul>
+                <li>
+                    <img src="">
+                    <button class="info-button" onclick="click(this.id)">click</button>
+                </li>
+                <li>
+                    <article>
+                        <h2>Name</h2>
+                        <h3>Price:200$</h3>
+                        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid
+                            animi delectus dolore,eum magnam modi, nam nemo non nostrum, quasi qui voluptatum.
+                            Aliquid assumenda aut consectetur consequatur, delectus distinctio dolorem ducimus,
+                            facere fugit id inventore natus nobis, sed? Odio.</em>
+                    </article>
+                </li>
+            </ul>
+        </div>
+        <div class="container-info col-md-4">
+            <ul>
+                <li>
+                    <img src="">
+                    <button class="info-button" >click</button>
+                </li>
+                <li>
+                    <article>
+                        <h2>Name</h2>
+                        <h3>Price:200$</h3>
+                        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid
+                        animi delectus dolore,eum magnam modi, nam nemo non nostrum, quasi qui voluptatum.
+                        Aliquid assumenda aut consectetur consequatur, delectus distinctio dolorem ducimus,
+                        facere fugit id inventore natus nobis, sed? Odio.</em>
+                    </article>
+                </li>
+            </ul>
+        </div>
+        <div class="container-info col-md-4">
+            <ul>
+                <li>
+                    <img src="">
+                    <button class="info-button" >click</button>
+                </li>
+                <li>
+                    <article>
+                        <h2>Name</h2>
+                        <h3>Price:200$</h3>
+                        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid
+                            animi delectus dolore,eum magnam modi, nam nemo non nostrum, quasi qui voluptatum.
+                            Aliquid assumenda aut consectetur consequatur, delectus distinctio dolorem ducimus,
+                            facere fugit id inventore natus nobis, sed? Odio.</em>
+                    </article>
+                </li>
+            </ul>
+        </div>
+        <div class="container-info col-md-4">
+            <ul>
+                <li>
+                    <img src="">
+                    <button class="info-button" >click</button>
+                </li>
+                <li>
+                    <article>
+                        <h2>Name</h2>
+                        <h3>Price:200$</h3>
+                        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid
+                            animi delectus dolore,eum magnam modi, nam nemo non nostrum, quasi qui voluptatum.
+                            Aliquid assumenda aut consectetur consequatur, delectus distinctio dolorem ducimus,
+                            facere fugit id inventore natus nobis, sed? Odio.</em>
+                    </article>
+                </li>
+            </ul>
+        </div>
+        <div class="container-info col-md-4">
+            <ul>
+                <li>
+                    <img src="">
+                    <button class="info-button" >click</button>
+                </li>
+                <li>
+                    <article>
+                        <h2>Name</h2>
+                        <h3>Price:200$</h3>
+                        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid
+                            animi delectus dolore,eum magnam modi, nam nemo non nostrum, quasi qui voluptatum.
+                            Aliquid assumenda aut consectetur consequatur, delectus distinctio dolorem ducimus,
+                            facere fugit id inventore natus nobis, sed? Odio.</em>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<article id="about-us">
+    <h1>About us</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores atque dolorem illum iure magnam
+        placeat quae ut. Aut commodi consequuntur corporis debitis dicta distinctio dolorem doloribus ducimus ea earum
+        eligendi, eum eveniet exercitationem fuga fugiat hic labore laborum minima nesciunt numquam obcaecati officia
+        perspiciatis placeat quae quasi qui quibusdam ratione recusandae repellendus repudiandae sapiente ut vel velit
+        veritatis vitae voluptate voluptatibus! Aperiam dolor expedita ipsa iure pariatur perspiciatis quidem rem
+        tempora temporibus ut? Ad aliquid amet animi, asperiores autem commodi cum cumque deserunt dolorem dolores enim
+        exercitationem laborum libero nobis numquam odit pariatur praesentium repellat reprehenderit sit soluta
+        tempore!</p>
+</article>
+<article id="contacts">
+    <h1>Contact information</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis in officiis perferendis rerum
+        temporibus veritatis! Cum dolore excepturi iste maiores necessitatibus optio pariatur, rerum totam ullam vel!
+        Aut eos fugit ipsum molestiae similique sit voluptas voluptatem. Illum nihil obcaecati optio. Ad aspernatur
+        atque cumque debitis error inventore nisi quibusdam quod soluta tempora. Accusamus alias amet animi consequatur
+        error et facilis fuga inventore ipsa iusto magni, maiores maxime necessitatibus odit pariatur quas repudiandae
+        sapiente sint ullam ut veritatis, vero vitae. Ad aperiam asperiores at, fugiat nam qui reiciendis repellat velit
+        voluptatum. Aperiam aut, consequuntur eum exercitationem illo numquam quibusdam quos?</p>
+</article>
+</body>
+<footer>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Contacts</h3>
+            <ul >
+                <li><strong>Telephone1:</strong> <em>Lorem ipsum</em>.</li>
+                <li><strong>Telephone2:</strong> <em>Lorem ipsum</em>.</li>
+                <li><strong>Telephone3:</strong> <em>Lorem ipsum</em>.</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h3>Location</h3>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae distinctio eos impedit laborum nam, unde.</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h3>Social</h3>
+            <ul>
+                <li>lorem</li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/animatescroll/animatescroll.js"></script>
+<script src="js/script.js"></script>
 </html>
